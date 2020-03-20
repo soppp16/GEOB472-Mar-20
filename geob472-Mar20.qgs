@@ -1,0 +1,1002 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.4.0-Madeira">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2287</srsid>
+      <srid>26910</srid>
+      <authid>EPSG:26910</authid>
+      <description>NAD83 / UTM zone 10N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="ubcv_trees_ccfdb3f0_38ca_4b9d_8610_8530bef94499" source="./geob 472/ubcv_trees.geojson" checked="Qt::Checked" providerKey="ogr" expanded="1" name="ubcv_trees">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="ubcv_building_records_d5bbe481_7295_4d11_b244_da9c791784f2" source="./geob 472/ubcv_building_records.geojson" checked="Qt::Checked" providerKey="ogr" expanded="1" name="ubcv_building_records">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="UBC_2018_1m_geotiff_UTM10N_21b40f1a_a808_4747_be82_61882b6e4bae" source="./geob 472/UBC-2018-1m-geotiff-UTM10N.tif" checked="Qt::Checked" providerKey="gdal" expanded="1" name="UBC-2018-1m-geotiff-UTM10N">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="vancouver_area_dem_03e91fe1_c6fc_4645_b1fb_60953bf0a55a" source="./geob 472/vancouver-area-dem.tif" checked="Qt::Checked" providerKey="gdal" expanded="1" name="vancouver-area-dem">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>UBC_2018_1m_geotiff_UTM10N_21b40f1a_a808_4747_be82_61882b6e4bae</item>
+      <item>ubcv_building_records_d5bbe481_7295_4d11_b244_da9c791784f2</item>
+      <item>ubcv_trees_ccfdb3f0_38ca_4b9d_8610_8530bef94499</item>
+      <item>vancouver_area_dem_03e91fe1_c6fc_4645_b1fb_60953bf0a55a</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="1" intersection-snapping="0" tolerance="12" unit="1" enabled="0">
+    <individual-layer-settings>
+      <layer-setting id="ubcv_trees_ccfdb3f0_38ca_4b9d_8610_8530bef94499" type="1" tolerance="12" units="1" enabled="0"/>
+      <layer-setting id="ubcv_building_records_d5bbe481_7295_4d11_b244_da9c791784f2" type="1" tolerance="12" units="1" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>480692.24330937367631122</xmin>
+      <ymin>5454454.4335409002378583</ymin>
+      <xmax>484021.77693736081710085</xmax>
+      <ymax>5457857.15043103415518999</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2287</srsid>
+        <srid>26910</srid>
+        <authid>EPSG:26910</authid>
+        <description>NAD83 / UTM zone 10N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="ubcv_trees">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="ubcv_trees_ccfdb3f0_38ca_4b9d_8610_8530bef94499"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="ubcv_building_records">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="ubcv_building_records_d5bbe481_7295_4d11_b244_da9c791784f2"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="UBC-2018-1m-geotiff-UTM10N">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="UBC_2018_1m_geotiff_UTM10N_21b40f1a_a808_4747_be82_61882b6e4bae"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="vancouver-area-dem">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="vancouver_area_dem_03e91fe1_c6fc_4645_b1fb_60953bf0a55a"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer styleCategories="AllStyleCategories" type="raster" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>480250</xmin>
+        <ymin>5453070</ymin>
+        <xmax>484440</xmax>
+        <ymax>5459045</ymax>
+      </extent>
+      <id>UBC_2018_1m_geotiff_UTM10N_21b40f1a_a808_4747_be82_61882b6e4bae</id>
+      <datasource>./geob 472/UBC-2018-1m-geotiff-UTM10N.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>UBC-2018-1m-geotiff-UTM10N</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="multibandcolor" redBand="1" alphaBand="-1" greenBand="2" opacity="1" blueBand="3">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" colorizeRed="255" colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" readOnly="0" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" minScale="1e+08" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Polygon" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>-123.26146491932338733</xmin>
+        <ymin>49.24328405927072083</ymin>
+        <xmax>-123.22785422722844828</xmax>
+        <ymax>49.27289783428120273</ymax>
+      </extent>
+      <id>ubcv_building_records_d5bbe481_7295_4d11_b244_da9c791784f2</id>
+      <datasource>./geob 472/ubcv_building_records.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ubcv_building_records</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" alpha="1" name="0">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="231,113,72,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="REC_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDG_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CLASS_CODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATE_BUILT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNT_FLOORS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONSTRUCTION_TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GBA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GBA_ESTIMATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="REC_ID" index="0" name=""/>
+        <alias field="BLDG_ID" index="1" name=""/>
+        <alias field="ADD_ID" index="2" name=""/>
+        <alias field="NAME" index="3" name=""/>
+        <alias field="LONGNAME" index="4" name=""/>
+        <alias field="CLASS_CODE" index="5" name=""/>
+        <alias field="STATUS" index="6" name=""/>
+        <alias field="NOTES" index="7" name=""/>
+        <alias field="DATE_BUILT" index="8" name=""/>
+        <alias field="COUNT_FLOORS" index="9" name=""/>
+        <alias field="CONSTRUCTION_TYPE" index="10" name=""/>
+        <alias field="GBA" index="11" name=""/>
+        <alias field="GBA_ESTIMATE" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="REC_ID" applyOnUpdate="0" expression=""/>
+        <default field="BLDG_ID" applyOnUpdate="0" expression=""/>
+        <default field="ADD_ID" applyOnUpdate="0" expression=""/>
+        <default field="NAME" applyOnUpdate="0" expression=""/>
+        <default field="LONGNAME" applyOnUpdate="0" expression=""/>
+        <default field="CLASS_CODE" applyOnUpdate="0" expression=""/>
+        <default field="STATUS" applyOnUpdate="0" expression=""/>
+        <default field="NOTES" applyOnUpdate="0" expression=""/>
+        <default field="DATE_BUILT" applyOnUpdate="0" expression=""/>
+        <default field="COUNT_FLOORS" applyOnUpdate="0" expression=""/>
+        <default field="CONSTRUCTION_TYPE" applyOnUpdate="0" expression=""/>
+        <default field="GBA" applyOnUpdate="0" expression=""/>
+        <default field="GBA_ESTIMATE" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" field="REC_ID" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="BLDG_ID" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="ADD_ID" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="NAME" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="LONGNAME" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="CLASS_CODE" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="STATUS" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="NOTES" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="DATE_BUILT" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="COUNT_FLOORS" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="CONSTRUCTION_TYPE" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="GBA" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="GBA_ESTIMATE" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="REC_ID" exp=""/>
+        <constraint desc="" field="BLDG_ID" exp=""/>
+        <constraint desc="" field="ADD_ID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="LONGNAME" exp=""/>
+        <constraint desc="" field="CLASS_CODE" exp=""/>
+        <constraint desc="" field="STATUS" exp=""/>
+        <constraint desc="" field="NOTES" exp=""/>
+        <constraint desc="" field="DATE_BUILT" exp=""/>
+        <constraint desc="" field="COUNT_FLOORS" exp=""/>
+        <constraint desc="" field="CONSTRUCTION_TYPE" exp=""/>
+        <constraint desc="" field="GBA" exp=""/>
+        <constraint desc="" field="GBA_ESTIMATE" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" readOnly="0" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" minScale="1e+08" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Point" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>-123.2622111518121244</xmin>
+        <ymin>49.25209725845412123</ymin>
+        <xmax>-123.2337909482963596</xmax>
+        <ymax>49.27282035781938418</ymax>
+      </extent>
+      <id>ubcv_trees_ccfdb3f0_38ca_4b9d_8610_8530bef94499</id>
+      <datasource>./geob 472/ubcv_trees.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ubcv_trees</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="marker" clip_to_extent="1" alpha="1" name="0">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="183,72,75,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="TAG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COMMON_NAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GENUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPECIES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UPDATED">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CULTIVAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FORMA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHYBRID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONDITION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIGNIFICANT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HAZARDS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DBH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="TAG" index="0" name=""/>
+        <alias field="COMMON_NAM" index="1" name=""/>
+        <alias field="GENUS" index="2" name=""/>
+        <alias field="SPECIES" index="3" name=""/>
+        <alias field="UPDATED" index="4" name=""/>
+        <alias field="CULTIVAR" index="5" name=""/>
+        <alias field="VAR" index="6" name=""/>
+        <alias field="FORMA" index="7" name=""/>
+        <alias field="SUBSP" index="8" name=""/>
+        <alias field="SHYBRID" index="9" name=""/>
+        <alias field="CONDITION" index="10" name=""/>
+        <alias field="SIGNIFICANT" index="11" name=""/>
+        <alias field="HAZARDS" index="12" name=""/>
+        <alias field="DBH" index="13" name=""/>
+        <alias field="NOTES" index="14" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="TAG" applyOnUpdate="0" expression=""/>
+        <default field="COMMON_NAM" applyOnUpdate="0" expression=""/>
+        <default field="GENUS" applyOnUpdate="0" expression=""/>
+        <default field="SPECIES" applyOnUpdate="0" expression=""/>
+        <default field="UPDATED" applyOnUpdate="0" expression=""/>
+        <default field="CULTIVAR" applyOnUpdate="0" expression=""/>
+        <default field="VAR" applyOnUpdate="0" expression=""/>
+        <default field="FORMA" applyOnUpdate="0" expression=""/>
+        <default field="SUBSP" applyOnUpdate="0" expression=""/>
+        <default field="SHYBRID" applyOnUpdate="0" expression=""/>
+        <default field="CONDITION" applyOnUpdate="0" expression=""/>
+        <default field="SIGNIFICANT" applyOnUpdate="0" expression=""/>
+        <default field="HAZARDS" applyOnUpdate="0" expression=""/>
+        <default field="DBH" applyOnUpdate="0" expression=""/>
+        <default field="NOTES" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" field="TAG" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="COMMON_NAM" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="GENUS" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="SPECIES" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="UPDATED" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="CULTIVAR" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="VAR" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="FORMA" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="SUBSP" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="SHYBRID" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="CONDITION" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="SIGNIFICANT" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="HAZARDS" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="DBH" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="NOTES" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="TAG" exp=""/>
+        <constraint desc="" field="COMMON_NAM" exp=""/>
+        <constraint desc="" field="GENUS" exp=""/>
+        <constraint desc="" field="SPECIES" exp=""/>
+        <constraint desc="" field="UPDATED" exp=""/>
+        <constraint desc="" field="CULTIVAR" exp=""/>
+        <constraint desc="" field="VAR" exp=""/>
+        <constraint desc="" field="FORMA" exp=""/>
+        <constraint desc="" field="SUBSP" exp=""/>
+        <constraint desc="" field="SHYBRID" exp=""/>
+        <constraint desc="" field="CONDITION" exp=""/>
+        <constraint desc="" field="SIGNIFICANT" exp=""/>
+        <constraint desc="" field="HAZARDS" exp=""/>
+        <constraint desc="" field="DBH" exp=""/>
+        <constraint desc="" field="NOTES" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" type="raster" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-123.46375000000000455</xmin>
+        <ymin>49.21097222200000232</ymin>
+        <xmax>-122.7809722220000026</xmax>
+        <ymax>49.39541666699999922</ymax>
+      </extent>
+      <id>vancouver_area_dem_03e91fe1_c6fc_4645_b1fb_60953bf0a55a</id>
+      <datasource>./geob 472/vancouver-area-dem.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>vancouver-area-dem</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandgray" alphaBand="-1" opacity="1" grayBand="1" gradient="BlackToWhite">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>-8</minValue>
+            <maxValue>1389</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" colorizeRed="255" colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="UBC_2018_1m_geotiff_UTM10N_21b40f1a_a808_4747_be82_61882b6e4bae"/>
+    <layer id="ubcv_building_records_d5bbe481_7295_4d11_b244_da9c791784f2"/>
+    <layer id="ubcv_trees_ccfdb3f0_38ca_4b9d_8610_8530bef94499"/>
+    <layer id="vancouver_area_dem_03e91fe1_c6fc_4645_b1fb_60953bf0a55a"/>
+  </layerorder>
+  <properties>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WCSLayers type="QStringList"/>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMTSJpegLayers>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+    </WMTSJpegLayers>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMTSLayers>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+    </WMTSLayers>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WFSLayers type="QStringList"/>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+      <Opacity type="double">1</Opacity>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <Line type="QString"></Line>
+    </DefaultStyles>
+    <WMSUrl type="QString"></WMSUrl>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMTSPngLayers>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <Measure>
+      <Ellipsoid type="QString">GRS80</Ellipsoid>
+    </Measure>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PAL>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+    </PAL>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Tang</author>
+    <creation>2020-03-20T12:00:41</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
